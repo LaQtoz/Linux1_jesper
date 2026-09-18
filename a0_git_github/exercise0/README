@@ -1,0 +1,19 @@
+I first created everything in the wrong folder.
+
+Then i used: 
+````mkdir```` 
+- 03_navigation 
+- 04_file_managment 
+- exercise0 
+- exercise1
+- exercise2 
+- exercise3
+
+Together with:
+````touch````
+03_navigation/README.md
+04_file_managment/README.md
+exercise0/README.md
+exercise1/README.md
+exercise2/README.md
+exercise3/README.md
