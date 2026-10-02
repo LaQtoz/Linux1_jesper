@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo "5*3 = $((5*3))"
+# / integer division
+echo "100/2 = $((100/2))"
+echo "2+7 = $((2+7))"
+echo "34-31 = $((34-31))"
+# % modulo operator -> remainder 
+echo "50% av 25 är = $((50 * 25 / 100))"
+
+echo "scale=2; 5/3" | bc
+
+PI=3.141592
+radius=1
+area=$(echo "scale=2; $PI*$radius^2" | bc)
+
+echo "circle area: $area"
